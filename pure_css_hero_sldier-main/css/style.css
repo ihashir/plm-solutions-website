@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+:root {
+    --main-color:#109bc5;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    transition: all 0.15s;
+    box-sizing:border-box;
+}
+
+/* body {
+  background: #eee;
+  min-height: 100vh;
+  width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+}   */
+#carousel .carousel-item.boat{
+  background-image:url("../../assets/images/slider_images/slider1.webp");
+}
+#carousel .carousel-item.sea{
+  background-image:url("../../assets/images/slider_images/slider2.webp");
+}
+#carousel .carousel-item.river{
+  background-image:url("../../assets/images/slider_images/slider3.webp");
+}
+#carousel .carousel-item{
+  /* height:100vh; */
+  width:100%;
+  min-height:350px;
+  background:no-repeat 0px center scroll;
+  background-size:cover;
+  z-index: -2;
+}
+#carousel .carousel-inner .carousel-item{
+  transition:-webkit-transform 2s ease;
+  transition:transform 2s ease;
+  transition:transform 2s ease, -webkit-transform 2s ease;
+  
+}
+#carousel .carousel-item .slider-content{
+  height: 100vh;
+  display: flex;
+  /* align-self: center; */
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  /* padding: 60px 50px; */
+}
+
+#carousel .carousel-item .caption{
+  
+  color:white;
+  animation-duration: 1s;
+  animation-delay: 2s;
+  text-align: center;
+  padding: 40px 140px;
+  width: 100%;
+  z-index: 10;
+}
+#carousel .caption h1{
+  font-size: 29px;
+  font-weight: 700;
+}
+#carousel .caption h2{
+  animation-duration: 1s;
+  animation-delay: 2s;
+  font-size: 70px;
+  font-weight: 700;
+}
+#carousel .caption p{
+  animation-duration: 1s;
+  animation-delay: 2.2s;
+  font-size: 29px;
+  font-weight: 400;
+}
+#carousel .caption strong{
+  color: var(--main-color);
+}
+
+#carousel .caption a{
+  animation-duration: 1s;
+  animation-delay: 2.4s;
+}
+.delicious-btn{
+  display: inline-block;
+  min-width:160px;
+  height:60px;
+  color:#fff;
+  border:none;
+  border-left:3px solid #1c8314;
+  border-radius: 0;
+  padding:0 30px;
+  font-size:16px;
+  line-height:58px;
+  font-weight:600;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  text-transform: capitalize;
+  background:#40ba37;
+}
+.delicious-btn:hover,
+.delicious-btn:active,
+.delicious-btn:focus{
+  font-size:16px;
+  font-weight: 600;
+  color:#fff;
+  background:#1c8314;
+  border-color:#40ba37
+}
+
+  /* overlay */
+#carousel .overlay{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #1e27588a;
+  z-index: -1;
+}

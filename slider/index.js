@@ -1,0 +1,20 @@
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:0,
+    dots:false,
+    nav:true,
+    mouseDrag:true,
+    autoplay:false,
+    animateOut: 'slideOutDown',
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+});
