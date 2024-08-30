@@ -27,7 +27,7 @@ Here are some previews of the website:
 ### Desktop View
 
 <p align="center">
-  <img src="screens/home.PNG" alt="Home Page" width="45%">
+  <img src="screens/homefix.PNG" alt="Home Page" width="45%">
   <img src="screens/service.PNG" alt="Service Page" width="45%">
 </p>
 
@@ -36,14 +36,6 @@ Here are some previews of the website:
   <img src="screens/about.PNG" alt="About Page" width="45%">
 </p>
 
-### Mobile View
-
-<p align="center">
-  <img src="screens/home.PNG" alt="Home Page - Mobile" width="22%">
-  <img src="screens/service.PNG" alt="Service Page - Mobile" width="22%">
-  <img src="screens/contact.PNG" alt="Contact Page - Mobile" width="22%">
-  <img src="screens/about.PNG" alt="About Page - Mobile" width="22%">
-</p>
 
 ## License
 
